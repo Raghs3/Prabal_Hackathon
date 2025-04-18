@@ -134,5 +134,5 @@ crew = Crew(
     verbose=True
 )
 
-product_user = input("Enter product name")
+product_user = input("Enter product name: ")
 result = crew.kickoff(inputs={"product": product_user})  # all false, main true
