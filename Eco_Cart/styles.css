@@ -264,3 +264,47 @@ h1 {
   color: #6c757d;
   opacity: 0.7;
 }
+
+.filter-section h3 {
+  background-color: #79f179;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+
+.filter-options {
+  background-color: #cafcca;  /* same light green */
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.09);
+}
+
+body {
+  background: linear-gradient(270deg, 
+    #eaffea,   /* light green */
+    #f0fff0,   /* minty white */
+    #e6ffe6,   /* pale green */
+    #f5fff5,   /* snow green */
+    #fff9e6,   /* soft yellow */
+    #ffeef8,   /* blush pink */
+    #e6f7ff,   /* baby blue */
+    #fff4e6    /* soft peach */
+  );
+  background-size: 1600% 1600%;
+  animation: gradientMove 30s ease infinite;
+}
+
+/* Smooth animation for background */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
