@@ -195,6 +195,7 @@ function setupFilters(categories) {
     <h3>Sort Products</h3>
     <div class="filter-options">
       <select id="sort-select">
+        <option value="default" selected>Default</option>
         <option value="rating-desc">Rating (High to Low)</option>
         <option value="rating-asc">Rating (Low to High)</option>
         <option value="name-asc">Name (A to Z)</option>

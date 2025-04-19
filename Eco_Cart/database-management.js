@@ -93,22 +93,26 @@ function setupFileUploader() {
     
     // Export database action
     document.getElementById('export-db-btn').addEventListener('click', () => {
-      const products = localStorage.getItem('products') ? 
-        JSON.parse(localStorage.getItem('products')) : [];
-      
+      const products = localStorage.getItem('products')
+        ? JSON.parse(localStorage.getItem('products'))
+        : [];
+    
       if (products.length === 0) {
+        // If no products in localStorage, fetch the original database
         fetch('products.json')
           .then(response => response.json())
           .then(originalProducts => {
             saveProductsToFile(originalProducts);
           })
           .catch(error => {
+            console.error('Error exporting database:', error);
             showNotification('Error exporting database', 'error');
           });
       } else {
+        // Export products from localStorage
         saveProductsToFile(products);
       }
-      
+    
       dropdownMenu.classList.remove('show');
     });
     
@@ -132,6 +136,28 @@ function setupFileUploader() {
       
       dropdownMenu.classList.remove('show');
     });
+  }
+  
+  // Function to save products to a file
+  function saveProductsToFile(products) {
+    // Convert the products array to a JSON string
+    const jsonData = JSON.stringify(products, null, 2);
+  
+    // Create a Blob object with the JSON data
+    const blob = new Blob([jsonData], { type: 'application/json' });
+  
+    // Create a temporary download link
+    const downloadLink = document.createElement('a');
+    downloadLink.href = URL.createObjectURL(blob);
+    downloadLink.download = 'products.json'; // Set the file name
+  
+    // Trigger the download
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  
+    // Show a success notification
+    showNotification('Database exported successfully!', 'success');
   }
   
   // Initialize all database management features
