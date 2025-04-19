@@ -45,7 +45,7 @@ fetch('products.json')
               <h3 class="product-name">${product.name}</h3>
               <p class="brand">${product.brand}</p>
               <div class="product-image">
-                <img src="placeholder.jpg" alt="${product.name}" loading="lazy">
+                <img src="${product.images || 'placeholder.jpg'}" alt="${product.name}" loading="lazy">
               </div>
               <div class="rating" style="background-color: ${ratingColor}">
                 <span class="rating-stars">${getRatingStars(product.rating)}</span>
@@ -75,6 +75,12 @@ fetch('products.json')
                 <div class="detail-row">
                   <strong>End of Life:</strong> 
                   <span>${product.end_of_life || 'Not specified'}</span>
+                </div>
+                <div class="detail-row">
+                  <strong>Greener Alternatives:</strong> 
+                  <span>${product.greener_alternatives && product.greener_alternatives.length > 0 
+                    ? product.greener_alternatives.join(', ') 
+                    : 'None available'}</span>
                 </div>
                 <div class="tags">
                   ${product.cruelty_free ? '<span class="tag tag-cruelty-free">Cruelty Free</span>' : ''}
