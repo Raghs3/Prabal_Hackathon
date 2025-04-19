@@ -139,14 +139,26 @@ function formatListProperty(property) {
 
 // Setup category and feature filters
 function setupFilters(categories) {
-  const filterContainer = document.getElementById('filter-container') || document.createElement('div');
-  if (!document.getElementById('filter-container')) {
+  let filterContainer = document.getElementById('filter-container');
+  
+  // If the filter container doesn't exist, create it
+  if (!filterContainer) {
+    filterContainer = document.createElement('div');
     filterContainer.id = 'filter-container';
     document.getElementById('products-container').parentNode.insertBefore(
-      filterContainer, 
+      filterContainer,
       document.getElementById('products-container')
     );
   }
+
+  // Preserve the "Add Product" button if it exists
+  const addProductButton = document.getElementById('add-product-btn');
+  if (addProductButton) {
+    filterContainer.removeChild(addProductButton);
+  }
+
+  // Clear existing filters
+  filterContainer.innerHTML = '';
 
   // Create category filter
   const categoryFilter = document.createElement('div');
@@ -160,7 +172,7 @@ function setupFilters(categories) {
       ).join('')}
     </div>
   `;
-  
+
   // Create feature filters
   const featureFilter = document.createElement('div');
   featureFilter.className = 'filter-section';
@@ -175,7 +187,7 @@ function setupFilters(categories) {
       </label>
     </div>
   `;
-  
+
   // Add sorting options
   const sortingOptions = document.createElement('div');
   sortingOptions.className = 'filter-section';
@@ -190,11 +202,17 @@ function setupFilters(categories) {
       </select>
     </div>
   `;
-  
+
+  // Append filters to the container
   filterContainer.appendChild(categoryFilter);
   filterContainer.appendChild(featureFilter);
   filterContainer.appendChild(sortingOptions);
-  
+
+  // Re-add the "Add Product" button
+  if (addProductButton) {
+    filterContainer.appendChild(addProductButton);
+  }
+
   // Add event listeners for filters
   document.querySelectorAll('#filter-container input, #sort-select').forEach(input => {
     input.addEventListener('change', applyFilters);
