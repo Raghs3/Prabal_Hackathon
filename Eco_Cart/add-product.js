@@ -67,6 +67,11 @@ function showAddProductForm() {
         <input type="text" id="product-end-of-life" placeholder="e.g., Compostable, Recyclable, Biodegradable">
       </div>
       
+      <div class="form-group">
+        <label for="product-greener-alternatives">Greener Alternatives</label>
+        <input type="text" id="product-greener-alternatives" placeholder="e.g., Alternative 1, Alternative 2">
+      </div>
+      
       <div class="form-checkbox-group">
         <div class="checkbox-container">
           <input type="checkbox" id="product-cruelty-free">
@@ -83,6 +88,11 @@ function showAddProductForm() {
         <label for="product-rating">Eco-Friendliness Rating (0-10)*</label>
         <input type="range" id="product-rating" min="0" max="10" step="0.5" value="5" required>
         <output id="rating-output">5.0</output>
+      </div>
+      
+      <div class="form-group">
+        <label for="product-image-url">Product Image URL</label>
+        <input type="text" id="product-image-url" placeholder="e.g., https://example.com/image.jpg">
       </div>
       
       <div class="form-actions">
@@ -135,18 +145,20 @@ function addProductToDatabase() {
     brand_ethics: document.getElementById('product-brand-ethics').value.trim(),
     manufacturing: document.getElementById('product-manufacturing').value.trim(),
     end_of_life: document.getElementById('product-end-of-life').value.trim(),
+    greener_alternatives: document.getElementById('product-greener-alternatives').value.trim(), // Add greener alternatives field
     cruelty_free: document.getElementById('product-cruelty-free').checked,
     vegan: document.getElementById('product-vegan').checked,
-    rating: parseFloat(document.getElementById('product-rating').value)
+    rating: parseFloat(document.getElementById('product-rating').value),
+    images: document.getElementById('product-image-url').value.trim() || 'placeholder.jpg' // Add images field
   };
-  
+
   // Validate required fields
   if (!newProduct.name || !newProduct.brand || !newProduct.category) {
     showNotification('Please fill in all required fields', 'error');
     return;
   }
-  
-  // Save the product to the database (using localStorage in this example)
+
+  // Save the product to the database
   saveProductToDatabase(newProduct);
 }
 
@@ -163,20 +175,19 @@ function saveProductToDatabase(newProduct) {
     .then(productsArray => {
       // Add the new product
       productsArray.push(newProduct);
-      
-      // In a real-world scenario, we would send this to a server endpoint
-      // Since we're working locally, we'll simulate saving with localStorage
+
+      // Save to localStorage (simulate saving to a database)
       localStorage.setItem('products', JSON.stringify(productsArray));
-      
+
       // Show success message
       showNotification('Product added successfully!', 'success');
-      
+
       // Close the modal
       const overlay = document.querySelector('.modal-overlay');
       if (overlay) {
         document.body.removeChild(overlay);
       }
-      
+
       // Refresh the product display
       refreshProductDisplay(productsArray);
     })
@@ -191,10 +202,10 @@ function refreshProductDisplay(productsArray) {
   // Clear current display
   const container = document.getElementById('products-container');
   container.innerHTML = '';
-  
+
   // Re-display all products using the updated array
   const categories = {};
-  
+
   // Group products by category
   productsArray.forEach(product => {
     if (!categories[product.category]) {
@@ -202,29 +213,29 @@ function refreshProductDisplay(productsArray) {
     }
     categories[product.category].push(product);
   });
-  
-  // Render each category (reusing the original display logic)
+
+  // Render each category
   Object.entries(categories).forEach(([categoryName, products]) => {
     // Create category section
     const section = document.createElement('div');
     section.className = 'category-section';
-    
+
     const heading = document.createElement('h2');
     heading.textContent = categoryName;
     section.appendChild(heading);
-    
+
     // Create product grid
     const productGrid = document.createElement('div');
     productGrid.className = 'product-grid';
-    
+
     // Render each product card
     products.forEach(product => {
       const card = document.createElement('div');
       card.className = 'product-card';
-      
+
       // Set rating color based on score
       const ratingColor = getRatingColor(product.rating);
-      
+
       // Create card HTML
       card.innerHTML = `
         <div class="card-inner">
@@ -232,14 +243,13 @@ function refreshProductDisplay(productsArray) {
             <h3 class="product-name">${product.name}</h3>
             <p class="brand">${product.brand}</p>
             <div class="product-image">
-              <img src="placeholder.jpg" alt="${product.name}" loading="lazy">
+              <img src="${product.images || 'placeholder.jpg'}" alt="${product.name}" loading="lazy">
             </div>
             <div class="rating" style="background-color: ${ratingColor}">
               <span class="rating-stars">${getRatingStars(product.rating)}</span>
               <span class="rating-score">${product.rating}/10</span>
             </div>
           </div>
-          
           <div class="product-back">
             <h3 class="product-name">${product.name}</h3>
             <div class="product-details">
@@ -257,11 +267,17 @@ function refreshProductDisplay(productsArray) {
               </div>
               <div class="detail-row">
                 <strong>Manufacturing:</strong> 
-                <span>${Array.isArray(product.manufacturing) ? 'Various locations' : (product.manufacturing || 'Not specified')}</span>
+                <span>${product.manufacturing || 'Not specified'}</span>
               </div>
               <div class="detail-row">
                 <strong>End of Life:</strong> 
                 <span>${product.end_of_life || 'Not specified'}</span>
+              </div>
+              <div class="detail-row">
+                <strong>Greener Alternatives:</strong> 
+                <span>${product.greener_alternatives && product.greener_alternatives.length > 0 
+                  ? product.greener_alternatives.join(', ') 
+                  : 'Not available'}</span>
               </div>
               <div class="tags">
                 ${product.cruelty_free ? '<span class="tag tag-cruelty-free">Cruelty Free</span>' : ''}
@@ -271,19 +287,19 @@ function refreshProductDisplay(productsArray) {
           </div>
         </div>
       `;
-      
+
       // Add flip functionality
       card.addEventListener('click', () => {
         card.classList.toggle('flipped');
       });
-      
+
       productGrid.appendChild(card);
     });
-    
+
     section.appendChild(productGrid);
     container.appendChild(section);
   });
-  
+
   // Re-add filter functionality
   setupFilters(categories);
 }
