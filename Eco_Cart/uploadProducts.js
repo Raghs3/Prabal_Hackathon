@@ -1,5 +1,5 @@
 const { collection, addDoc, query, where, getDocs, updateDoc } = require('firebase/firestore/lite');
-const db = require('./firebase');
+const db = require('../firebase');
 const fs = require('fs');
 const path = require('path');
 
