@@ -215,14 +215,9 @@ The AI Agent is powered by **Gemini LLM**, a state-of-the-art large language mod
 - Integrate AI-powered chat for real-time sustainability advice.
 - Expand the database to include more product categories and certifications.
 
----
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 ## Contributors
 - **Raghav** - Developer
+- **Swapnaja** - Developer
 - **Gemini LLM** - AI Agent Integration
-- **Firebase** - Database and Hosting
+- **Firebase** - Database
+- **Vercel** - Hosting
