@@ -1,4 +1,0 @@
-langchain_google_genai
-crewai
-crewai_tools
-python-dotenv

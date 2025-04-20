@@ -1,0 +1,16 @@
+{
+  "name": "Toyota Supra",
+  "brand": "Toyota",
+  "materials": "Steel, aluminum, various plastics, rubber, glass, and other components. Specific material composition varies by model year and trim level.",
+  "certifications": [],
+  "packaging": "The car is not sold in packaging.  Toyota has broader corporate sustainability goals related to reduced packaging and recycled materials in its manufacturing processes.",
+  "brand_ethics": "Toyota has publicly stated commitments to environmental sustainability, including carbon neutrality goals.  Their practices vary in detail across different regions and aspects of their business.",
+  "manufacturing": "Toyota employs various eco-friendly manufacturing practices across its global operations, including waste reduction initiatives and the use of recycled materials where feasible. However, specific details for Supra manufacturing are unavailable. ",
+  "end_of_life": "End-of-life management is determined by local regulations. Recycling options may vary by location and model year.  Parts can be recycled or repurposed. Toyota is involved in recycling programs, but specific Supra details are not available.",
+  "cruelty_free": true,
+  "vegan": "Unknown",
+  "category": "Sustainable Tech Accessories",
+  "rating": 4.5,
+  "greener_alternatives": ["Electric vehicles", "Hybrid vehicles", "Used cars", "Smaller, more fuel-efficient vehicles", "Toyota Prius", "Toyota Corolla Hybrid"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/2023_Toyota_Supra_%282%29.jpg"
+}

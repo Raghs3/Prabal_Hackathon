@@ -1,0 +1,97 @@
+# fetch_task:
+#   description: >
+#     1. Search for product details about {product} using various sources (e.g., databases, APIs, AI agents).
+#     2. Collect information on materials, brand ethics, certifications, and environmental impact for {product}.
+#     3. If any information is missing or incomplete, use your web search tool to find the relevant details.
+#     4. Ensure the details about {product} are accurate and comprehensive.
+#   expected_output: >
+#     A structured set of eco-friendliness details for the product: {product}, including materials, brand ethics, certifications, and environmental impact.
+#   agent: fetcher
+fetch_task:
+  description: >
+    1. Check if the product '{product}' already exists in the local products.json file,
+    organized by category (Reusable Bottles and Cups, Eco Friendly Bags, Sustainable Clothing,
+    Personal Care Products, Home Essentials, Stationery, Zero Waste Kits Starter Packs, Sustainable Tech Accessories).
+    2. If the product exists, fetch and return its details in the standard format without ```, json etc:
+
+    {
+      "name": "<str>",                         // Name of the product
+      "brand": "<str>",                        // Brand or company name
+      "materials": "<str>",                    // Key ingredients or materials used in the product
+      "certifications": ["<str>", "..."],      // Recognized sustainability or safety certifications
+      "packaging": "<str>",                    // Description of the packaging material and recyclability
+      "brand_ethics": "<str>",                 // Summary of the brand’s sustainability and ethical practices
+      "manufacturing": "<str>",                // Any known eco-friendly manufacturing practices
+      "end_of_life": "<str>",                  // Disposal or recyclability instructions
+      "cruelty_free": "<bool>",                // Whether the product is cruelty-free (true/false)
+      "vegan": "<str>",                        // Whether the product is vegan or not (Yes / No / Unknown)
+      "category": "<str>",                      // The category the product belongs to Reusable Bottles and Cups, Eco Friendly Bags, Sustainable Clothing, Personal Care Products, Home Essentials, Stationery, Zero Waste Kits Starter Packs, Sustainable Tech Accessories
+      "rating": "<int>",                        // Eco-friendliness rating (0.0-10.0) that you get from rater agent
+      "greener_alternatives": ["<str>", "..."], // List of greener alternatives to the product
+      "image": "<str>"                         // URL of the product image
+    }
+
+    don't add any comments
+
+    3. If the product does not exist, fetch or generate its details using web search or LLM,
+    ensure it matches the above format, and append it to the correct category in products.json.
+    Without ```, json etc.
+    4. Return the product's details in the above format as output without ```.
+  expected_output: >
+    A single product's details in the specified format (see description),
+    with the product added to products.json in the correct category if it did not previously exist,
+    without overwriting any existing items.
+  agent: fetcher
+
+
+rate_task:
+  description: >
+    1. Analyze the details of the product: {product} (e.g., materials, brand ethics, certifications).
+    2. If any relevant information is missing, use your web search tool to find it.
+    3. Assign an eco-friendliness score on a scale of 0.0-10.0 for {product}.
+    4. Categorize {product} as 'Extremely Eco-Friendly', 'Very Eco-Friendly', 'Moderately Eco-Friendly', 'Slightly Eco-Friendly', or 'Not Eco-Friendly' based on the score.
+    5. Provide a brief explanation for the assigned rating for {product}.
+    6. Update the product's details in products.json with the new rating. Keeping in mind the format as specified in the fetch_task.
+    7. Ensure the rating is consistent with the product's details and category.
+    8. Don't use any comments in the output.
+    9. Don't add ```, json etc.
+    10. Don't add any new fields or write outside the brackets of json.
+    11. If product already exists in database, use the already provided rating. No changes to database.
+    12. IF product already exists but rating is not present then give rating and update the database.
+    13. Don't add any new fields or write outside the brackets of json. Only work on the fields provided in the database.
+    14. Don't edit any other fields except the rating field.
+  expected_output: >
+    An eco-friendliness score (0.0-10.0), a category, and a brief explanation for the rating of {product} and updated rating in products.json.
+  agent: rater
+
+report_task:
+  description: >
+    1. Use the product: {product}'s eco-friendliness rating and category to generate a user-friendly report.
+    2. Include an explanation for the rating and category obtained from rater for {product}.
+    3. If you can't find greener alternatives in the provided data, use your web search tool to suggest them.
+    4. Suggest greener alternatives if {product} is not eco-friendly.
+    5. Add a greener alternatives field to the product's details in products.json.
+    8. Don't use any comments in the output.
+    9. Don't add ```, json etc.
+    10. Don't add any new fields or write outside the brackets of json.
+    11. If product already exists in database, use the already provided greener alternatives. No changes to database.
+    12. IF product already exists but greener alternatives is not present then give greener alternatives and update the database.
+    13. Don't add any new fields or write outside the brackets of json. Only work on the fields provided in the database.
+    14. Don't edit any other fields except the greener alternatives field.
+  expected_output: >
+    Updated greener alternatives in products.json.
+    Do not add any new fields or write outside the brackets of json.
+  agent: reporter
+
+summary_task:
+  description: >
+    1. From the final eco-friendliness report of {product}, extract only the following:
+       - A product image (if possible, using your search tool),
+       - The eco-friendliness rating,
+       - The product's category,
+       - A list (names only) of greener alternatives.
+    2. Format the output neatly under the following headers:
+       Image (if found), Rating, Category, Greener Alternatives.
+  expected_output: >
+    A minimal summary including (if possible) the product image, eco-friendliness rating, category, and greener alternatives (as a bullet list).
+  agent: summarizer
