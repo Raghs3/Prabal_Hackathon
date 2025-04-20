@@ -5,69 +5,79 @@
     "materials": "18/8 Stainless steel",
     "certifications": ["BPA Free"],
     "packaging": "Minimal paper wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle in metal waste stream.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Reusable Bottles and Cups",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Glass Water Bottle", "Bamboo Water Bottle"],
+    "images": "https://www.waterbottle.tech/wp-content/uploads/2020/02/stainless-steel-water-bottle-sport-outdoor-reusable-s1424f1-1.jpg"
   },
   {
     "name": "Upcycled Glass Cup Set",
     "brand": "ReGlass",
     "materials": "Upcycled glass",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled cardboard",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle with glass.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Reusable Bottles and Cups",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Ceramic Cup Set", "Bamboo Cup Set"],
+    "images": "https://m.media-amazon.com/images/I/41PI9wQ4-0L.jpg"
   },
   {
     "name": "Stainless Steel Lunch Box",
     "brand": "LunchPure",
     "materials": "Stainless steel",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle as scrap metal.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Reusable Bottles and Cups",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Glass Lunch Box", "Bamboo Lunch Box"],
+    "images": "https://m.media-amazon.com/images/I/71XtkhVkUEL.jpg"
   },
   {
     "name": "Glass Infuser Water Bottle",
     "brand": "ClearSip",
     "materials": "Glass, Bamboo, Stainless steel",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle glass, compost bamboo lid.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Reusable Bottles and Cups",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Ceramic Infuser Bottle", "Bamboo Infuser Bottle"],
+    "images": "https://m.media-amazon.com/images/I/61uwTPFsoNL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "name": "Foldable Collapsible Cup",
     "brand": "PackLite",
     "materials": "Silicone",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper sleeve",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle at silicone recycling facilities.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Reusable Bottles and Cups",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Glass Collapsible Cup", "Bamboo Collapsible Cup"],
+    "images": "https://m.media-amazon.com/images/I/61RUn3WITtL.jpg"
   },
   {
     "name": "Organic Cotton Tote Bag",
@@ -75,69 +85,79 @@
     "materials": "Organic cotton",
     "certifications": ["GOTS Certified Organic Cotton"],
     "packaging": null,
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Compost at end of life.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Eco Friendly Bags",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Recycled Cotton Tote Bag", "Jute Tote Bag"],
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqib8Ib05QZhj14s1rDe0lXSZ_zm_P5LeRsw&s"
   },
   {
     "name": "Reusable Silicone Food Bags",
     "brand": "SealAgain",
     "materials": "Silicone",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle at silicone recycling centers.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Eco Friendly Bags",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Glass Food Bags", "Compostable Food Bags"],
+    "images": "https://rukminim2.flixcart.com/image/850/1000/kit6hzk0-0/storage-pouch/l/z/b/airtight-silicone-pouch-1-dhyey-enterprise-original-imafygk4fgqkuzgf.jpeg?q=90&crop=false"
   },
   {
     "name": "Jute Market Bag",
     "brand": "EarthTote",
     "materials": "Jute",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Compost after use.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Eco Friendly Bags",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Organic Cotton Market Bag", "Recycled PET Bag"],
+    "images": "https://www.supreme-creations.in/wp-content/uploads/2022/05/extra-roomy-natural-jute-shopper-bag-with-added-gusset.jpg"
   },
   {
     "name": "Recycled PET Tote",
     "brand": "CycleBag",
     "materials": "Recycled PET",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "None",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle with plastics.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Eco Friendly Bags",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Organic Cotton Tote", "Recycled Canvas Bag"],
+    "images": "https://apisap.fabindia.com/medias/20049558-1.jpg?context=bWFzdGVyfGltYWdlc3wyMzU0MTZ8aW1hZ2UvanBlZ3xhR014TDJneU5DODVNVEk1TnpNeE1qa3pNakUwTHpJd01EUTVOVFU0WHpFdWFuQm58MWYyZDA0M2IwYTMwMDk0YTU5NTJiMTBmM2YyOTI3Y2E2MTI2YTkyNjNmNjljNjhjYWY3ZjkzOTJlNGRlYTQxYg"
   },
   {
     "name": "Foldable Nylon Shopping Bag",
     "brand": "LiteCarry",
     "materials": "Nylon",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper sleeve",
-    "brand_ethics": ["No Public Information Avaialble"],
+    "brand_ethics": [],
     "manufacturing": "No public eco-manufacturing practices listed",
     "end_of_life": "Recycle with textiles.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Eco Friendly Bags",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Recycled Nylon Bag", "Organic Cotton Bag"],
+    "images": "https://m.media-amazon.com/images/I/71pXoJYyrwL._AC_UY1100_.jpg"
   },
   {
     "name": "Organic Cotton Baby Diapers",
@@ -145,13 +165,15 @@
     "materials": "Organic cotton, Plant-based core",
     "certifications": ["GOTS Certified Organic Cotton"],
     "packaging": "Paper bag",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compostable core.",
     "cruelty_free": true,
     "vegan": false,
     "category": "Sustainable Clothing",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Reusable Bamboo Diapers", "Compostable Diapers"],
+    "images": "https://staranddaisy.in/wp-content/uploads/2021/12/1-96643678.jpg"
   },
   {
     "name": "Organic Cotton Face Mask",
@@ -159,41 +181,47 @@
     "materials": "Organic cotton",
     "certifications": ["GOTS Certified Organic Cotton"],
     "packaging": "Paper sleeve",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost at end of life.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Clothing",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Face Mask", "Bamboo Face Mask"],
+    "images": "https://hfnlife.com/cdn/shop/products/1618236604339_jpg.png?v=1663671011"
   },
   {
     "name": "Recycled Polyester Activewear Shorts",
     "brand": "MoveGreen",
     "materials": "Recycled polyester",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper bag",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle with textiles.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Clothing",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Hemp Shorts", "Organic Cotton Shorts"],
+    "images": "https://cdn-images.farfetch-contents.com/23/10/27/43/23102743_53504987_600.jpg"
   },
   {
     "name": "Hemp Blend Hoodie",
     "brand": "HempStyle",
     "materials": "Hemp, Organic cotton",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Cardboard box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost at end of life.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Clothing",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Organic Cotton Hoodie", "Recycled Wool Hoodie"],
+    "images": "https://assets.adidas.com/images/w_600,f_auto,q_auto/acba8ff58cce43eabc6eaf63009decce_9366/Essentials_Made_With_Hemp_Hoodie_Green_HR2962_01_laydown.jpg"
   },
   {
     "name": "Bamboo Toothbrush",
@@ -202,40 +230,46 @@
     "certifications": ["FSC Certified Bamboo"],
     "packaging": "Recycled cardboard",
     "brand_ethics": ["Fair wages"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "manufacturing": [],
     "end_of_life": "Remove bristles; compost handle.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Bamboo Toothbrush", "Compostable Toothbrush"],
+    "images": "https://m.media-amazon.com/images/I/71edeKpYPpL.jpg"
   },
   {
     "name": "Organic Deodorant Stick",
     "brand": "FreshLeaf",
     "materials": "Shea butter, Arrowroot powder, Coconut oil",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper tube",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle or compost packaging.",
     "cruelty_free": true,
     "vegan": false,
     "category": "Personal Care Products",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Compostable Deodorant", "Refillable Deodorant"],
+    "images": "https://brownliving.in/cdn/shop/products/natural-deodorant-stick-spice-infusion-treewear-nd-si-deodorant-brown-living-730118.jpg?v=1682965141&width=1200"
   },
   {
     "name": "Zero-Waste Toothpaste Tablets",
     "brand": "SmileEco",
     "materials": "Baking soda, Natural flavors",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Glass jar",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle jar.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Bamboo Toothpaste Tablets", "Refillable Toothpaste"],
+    "images": "https://lochtree.com/cdn/shop/products/UnPaste_700x.progressive.jpg?v=1706916554"
   },
   {
     "name": "Biodegradable Trash Bags",
@@ -243,13 +277,15 @@
     "materials": "PLA, Corn starch",
     "certifications": ["OK Compost Home"],
     "packaging": "Compostable film wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost with organic waste.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Compostable Trash Bags", "Reusable Trash Bags"],
+    "images": "https://m.media-amazon.com/images/I/81p0oggkdhL.jpg"
   },
   {
     "name": "Tree-Free Facial Tissues",
@@ -257,27 +293,31 @@
     "materials": "Bamboo",
     "certifications": ["FSC Certified Bamboo"],
     "packaging": "Paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost after use.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Hemp Tissues", "Recycled Paper Tissues"],
+    "images": "https://m.media-amazon.com/images/I/61R7EEeDkxL.jpg"
   },
   {
     "name": "Eco-Friendly Dish Soap Bar",
     "brand": "CleanNature",
     "materials": "Coconut oil, Lye, Essential oils",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost the wrapper.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Refillable Soap Bar", "Compostable Soap Bar"],
+    "images": "https://m.media-amazon.com/images/I/91rQan+No+S.jpg"
   },
   {
     "name": "Organic Wool Dryer Balls",
@@ -285,27 +325,31 @@
     "materials": "Organic wool",
     "certifications": ["GOTS Organic Wool"],
     "packaging": "Cotton bag",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost at end of life.",
     "cruelty_free": true,
     "vegan": false,
     "category": "Personal Care Products",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Reusable Wool Balls", "Hemp Dryer Balls"],
+    "images": "https://m.media-amazon.com/images/I/616I+8bE3cL.jpg"
   },
   {
     "name": "Eco-Friendly Cat Litter",
     "brand": "PurrGreen",
     "materials": "Plant fibers",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper bag",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost used litter.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Personal Care Products",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Compostable Cat Litter", "Plant-Based Cat Litter"],
+    "images": "https://www.thesprucepets.com/thmb/X6m8HmH4N1OYz6b2CBQVR0iRLI8=/3000x0/filters:no_upscale():strip_icc()/SPRPETS-Naturally-Fresh-Cat-Litter-Lindsay-Boyers-01-a6c375dfa0304651a6a39e68e64b4805.jpeg"
   },
   {
     "name": "Recycled Paper Notebook",
@@ -313,97 +357,111 @@
     "materials": "Recycled paper",
     "certifications": ["FSC Recycled"],
     "packaging": null,
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle with paper.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Stationery",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Notebook", "Recycled Paper Notebook"],
+    "images": "https://www.rescript.in/assets/uploads/inventory/pro_67332cebca00417338554006848.png"
   },
   {
     "name": "Plant-Based Gel Pen",
     "brand": "EcoInk",
     "materials": "PLA, Ink",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost barrel, recycle ink cartridge.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Stationery",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Bamboo Gel Pen", "Recycled Plastic Pen"],
+    "images": "https://m.media-amazon.com/images/I/81O94oWf1FL.jpg"
   },
   {
     "name": "Recycled Paper Sticky Notes",
     "brand": "NoteRenew",
     "materials": "Recycled paper, Plant glue",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper wrap",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle with paper.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Stationery",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Hemp Sticky Notes", "Recycled Paper Notes"],
+    "images": "https://m.media-amazon.com/images/I/817uli5bMtL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Bamboo Ballpoint Pen",
     "brand": "BamPen",
     "materials": "Bamboo, Ink",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost barrel, recycle cartridge.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Stationery",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Bamboo Pen", "Recycled Aluminum Pen"],
+    "images": "data:image/jpeg;base64,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"
   },
   {
     "name": "Plantable Seed Paper Notebook",
     "brand": "SproutWrite",
     "materials": "Seed paper, Recycled paper",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper sleeve",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Plant cover, recycle pages.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Stationery",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Notebook", "Recycled Paper Notebook"],
+    "images": "https://m.media-amazon.com/images/I/7174mwnVFxL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Eco-Friendly Laundry Detergent Sheets",
     "brand": "EarthClean",
     "materials": "Plant-based surfactants",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle packaging, compost used sheets.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Reusable Laundry Sheets", "Compostable Laundry Sheets"],
+    "images": "https://m.media-amazon.com/images/I/71+L74cj9WL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Stainless Steel Straw Set",
     "brand": "DrinkGreen",
     "materials": "Stainless steel",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Cotton pouch",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle as scrap metal.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Bamboo Straw Set", "Glass Straw Set"],
+    "images": "https://m.media-amazon.com/images/I/71ot--PoxoL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "name": "Reusable Beeswax Food Wraps",
@@ -411,83 +469,95 @@
     "materials": "Organic cotton, Beeswax",
     "certifications": ["GOTS Certified Organic Cotton"],
     "packaging": "Paper sleeve",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost after use.",
     "cruelty_free": true,
     "vegan": false,
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 7
+    "rating": 7,
+    "greener_alternatives": ["Hemp Food Wraps", "Silicone Food Wraps"],
+    "images": "https://m.media-amazon.com/images/I/81-cLbynG7L.jpg"
   },
   {
     "name": "Zero Waste Starter Kit",
     "brand": "EcoKit",
     "materials": "Bamboo, Cotton, Stainless steel",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Cardboard box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost or recycle individual items.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Hemp Zero Waste Kit", "Recycled Plastic Kit"],
+    "images": "https://i.etsystatic.com/18244890/r/il/db8502/2998525014/il_570xN.2998525014_j0tv.jpg"
   },
   {
     "name": "Travel Zero Waste Kit",
     "brand": "GoZero",
     "materials": "Silicone, Coconut oil, Seed paper",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper pouch",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle or compost components.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Travel Kit", "Recycled Plastic Kit"],
+    "images": "https://www.myonearth.com/cdn/shop/products/zero-waste-easy-starter-kit-271445.jpg?v=1690618292"
   },
   {
     "name": "Solar-Powered LED Lantern",
     "brand": "SunGlow",
     "materials": "ABS plastic, Solar cell",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle at e-waste collection points.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Bamboo Lantern", "Recycled Plastic Lantern"],
+    "images": "https://m.media-amazon.com/images/I/61Pcz+QTexL.jpg"
   },
   {
     "name": "Compostable Phone Case",
     "brand": "GreenShell",
     "materials": "Plant-based bioplastic, Flax fiber",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Compost at end of life.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Phone Case", "Recycled Plastic Case"],
+    "images": "https://m.media-amazon.com/images/I/61AGSu9b8jL.jpg"
   },
   {
     "name": "Solar Charger for Devices",
     "brand": "SunCharge",
     "materials": "Monocrystalline silicon, Recycled plastic",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled cardboard",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle at e-waste collection points.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Hemp Charger", "Recycled Plastic Charger"],
+    "images": "https://m.media-amazon.com/images/I/71xqn6vl1ZL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "LED Light Bulbs",
@@ -495,33 +565,37 @@
     "materials": "Glass, Metal, Plastic",
     "certifications": ["Energy Star"],
     "packaging": "Cardboard box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle with electronics.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 9
+    "rating": 9,
+    "greener_alternatives": ["Hemp Light Bulbs", "Recycled Plastic Bulbs"],
+    "images": "https://www.homesake.in/cdn/shop/files/IH0E671_theme.jpg?v=1704968677&width=1920"
   },
   {
     "name": "Recycled Plastic Sunglasses",
     "brand": "SecondSun",
     "materials": "Recycled plastic, Metal",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper box",
-    "brand_ethics": ["No Public Information Avaialble"],
-    "manufacturing": ["No Public Information Avaialble"],
+    "brand_ethics": [],
+    "manufacturing": [],
     "end_of_life": "Recycle with plastics.",
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 8
+    "rating": 8,
+    "greener_alternatives": ["Hemp Sunglasses", "Recycled Plastic Glasses"],
+    "images": "https://assets.theoceancleanup.com/app/uploads/2022/10/1_mobile_hinges.jpeg"
   },
   {
     "name": "IPCA Acne-UV Gel Sunscreen SPF 50/PA+++",
     "brand": "IPCA Laboratories",
     "materials": "The exact formulation isn't consistently listed across sources.  Commonly mentioned ingredients include broad-spectrum UV filters, and it's described as oil-free and non-comedogenic.",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Packaging details are not consistently available across sources.  Further investigation is needed.",
     "brand_ethics": "Information on IPCA Laboratories' broader sustainability and ethical practices is needed.",
     "manufacturing": "Information on IPCA Laboratories' eco-friendly manufacturing processes is needed.",
@@ -529,13 +603,52 @@
     "cruelty_free": true,
     "vegan": "Unknown",
     "category": "Personal Care Products",
-    "rating": 5
+    "rating": 5,
+    "greener_alternatives": ["Mineral Sunscreen", "Plant-Based Sunscreen"],
+    "images": "https://www.clinikally.com/cdn/shop/files/UV_Acne_Gel_SPF50_copy.jpg?v=1685509982"
+  },
+  {
+    "name": "Porsche 911",
+    "brand": "Porsche",
+    "materials": "Aluminum, steel, various plastics, and composites (specific materials vary by model year and trim).  Porsche is increasingly incorporating recycled and sustainable materials into its vehicles.",
+    "certifications": [],
+    "packaging": "Information not readily available.  Packaging likely varies depending on parts and accessories.",
+    "brand_ethics": "Porsche has publicly stated sustainability goals, including aiming for a CO2-neutral balance sheet by 2030 and increased use of recycled materials.  Their efforts include a vision of a 'Zero Impact Factory' and collaborations to reduce the environmental impact of aluminum production.  However, as a luxury car manufacturer, their overall environmental footprint remains high.",
+    "manufacturing": "Porsche is investing in sustainable manufacturing practices, aiming for a 'Zero Impact Factory' model.  The company is exploring and implementing the use of low-emission steel and recycled materials. Specific details on manufacturing processes for the 911 are limited in publicly available information.",
+    "end_of_life": "Porsche offers recycling programs for end-of-life vehicles, but specifics vary by region.  Information on specific 911 model recycling options should be checked with local Porsche dealers or recycling centers.",
+    "cruelty_free": false,
+    "vegan": "Unknown",
+    "category": "Sustainable Tech Accessories",
+    "rating": 4.0,
+    "greener_alternatives": [
+      "Electric vehicles from other manufacturers with stronger sustainability certifications",
+      "Used vehicles (reducing the demand for new car production)",
+      "Hybrid vehicles offering better fuel efficiency than the Porsche 911",
+      "Smaller, more fuel-efficient vehicles for daily commutes"
+    ],
+    "images": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/911/11757/1717680690776/front-left-side-47.jpg"
+  },
+  {
+    "name": "Apple iPhone 14",
+    "brand": "Apple",
+    "materials": "Aluminum, glass, lithium-ion batteries, various metals (copper, gold, rare earth elements).  Specific materials vary by model and configuration.",
+    "certifications": ["Energy Star", "EPEAT"],
+    "packaging": "Recyclable cardboard box, minimal plastic packaging.",
+    "brand_ethics": "Apple has made commitments to reduce carbon emissions and use recycled materials in its products.  They have a recycling program for old devices and aim for carbon neutrality across their supply chain by 2030.",
+    "manufacturing": "Apple's manufacturing processes are not fully transparent, but they have initiatives to improve sustainability in their supply chain.  They are working towards using renewable energy in their manufacturing processes.",
+    "end_of_life": "Apple offers a recycling program for old devices.  The recyclability of the iPhone varies by component and local recycling facilities.",
+    "cruelty_free": true,
+    "vegan": true,
+    "category": "Sustainable Tech Accessories",
+    "rating": 8.5,
+    "greener_alternatives": [],
+    "images": "https://iplanet.one/cdn/shop/files/iPhone_14_Blue_PDP_Image_Position-1A__WWEN.jpg?v=1691142210"
   },
   {
     "name": "Tesla Model S",
     "brand": "Tesla",
     "materials": "Aluminum, steel, lithium-ion batteries (containing nickel, cobalt, aluminum, lithium), glass, plastic, various other components.",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Information not readily available. Requires further research.",
     "brand_ethics": "Tesla's sustainability practices are a subject of ongoing debate and scrutiny. Their environmental impact is significant due to battery production and sourcing of materials. Further research needed for a comprehensive summary.",
     "manufacturing": "Tesla aims for some degree of sustainable manufacturing practices, but details are not fully public. Requires further research.",
@@ -543,7 +656,9 @@
     "cruelty_free": true,
     "vegan": true,
     "category": "Sustainable Tech Accessories",
-    "rating": 7.0
+    "rating": 7.0,
+    "greener_alternatives": [],
+    "images": "https://hips.hearstapps.com/hmg-prod/images/2025-tesla-model-s-2-672d42e16475f.jpg?crop=0.503xw:0.502xh;0.262xw,0.289xh&resize=1200:*"
   },
   {
     "name": "Mamaearth Ultra Light Indian Sunscreen SPF 50",
@@ -557,13 +672,15 @@
     "cruelty_free": true,
     "vegan": "Unknown",
     "category": "Personal Care Products",
-    "rating": 5.0
+    "rating": 5.0,
+    "greener_alternatives": ["Natural Sunscreen", "Plastic-Free Sunscreen"],
+    "images": "https://images.mamaearth.in/catalog/product/1/_/1_46.jpg?format=auto&height=600"
   },
   {
     "name": "Volkswagen ID.4",
     "brand": "Volkswagen",
     "materials": "Recycled plastic bottles (upholstery), recycled materials (seats), natural materials (steering wheel, gearshift).  Specific material composition varies by model year and trim level.",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Information not readily available.  Further research needed.",
     "brand_ethics": "Volkswagen is increasingly focused on sustainability, incorporating recycled materials and aiming for reduced environmental impact throughout the vehicle lifecycle, including manufacturing with renewable energy.",
     "manufacturing": "Manufactured using renewable energy at Volkswagen's Zwickau, Germany plant (at least partially).  Volkswagen is working towards 'Green Factory' principles to minimize environmental impact during production.",
@@ -571,7 +688,9 @@
     "cruelty_free": true,
     "vegan": "Unknown",
     "category": "Sustainable Tech Accessories",
-    "rating": 7.5
+    "rating": 7.5,
+    "greener_alternatives": [],
+    "images": "https://imgd.aeplcdn.com/664x374/n/cw/ec/138087/id4-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
   },
   {
     "name": "Bamboo Toothbrush",
@@ -585,13 +704,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Personal Care Products",
-    "rating": 9.7
+    "rating": 9.7,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71edeKpYPpL.jpg"
   },
   {
     "name": "Plastic Water Bottle",
     "brand": "ValueH2O",
     "materials": "PET plastic",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap, not recyclable",
     "brand_ethics": "No public sustainability statement",
     "manufacturing": "Conventional fossil-fuel based process",
@@ -599,7 +720,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Reusable Bottles and Cups",
-    "rating": 1.0
+    "rating": 1.0,
+    "greener_alternatives": ["Reusable Glass Bottle", "Stainless Steel Bottle"],
+    "images": "https://m.media-amazon.com/images/I/41De5cmYpoL._SR290,290_.jpg"
   },
   {
     "name": "Organic Cotton Tote Bag",
@@ -613,13 +736,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Eco Friendly Bags",
-    "rating": 9.0
+    "rating": 9.0,
+    "greener_alternatives": [],
+    "images": "https://i.etsystatic.com/18798117/r/il/c80714/5329391040/il_fullxfull.5329391040_kf9z.jpg"
   },
   {
     "name": "Leather Wallet",
     "brand": "ClassicWallets",
     "materials": "Genuine leather",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap, cardboard",
     "brand_ethics": "No sustainability policies",
     "manufacturing": "Traditional tanning, high water use",
@@ -627,7 +752,9 @@
     "cruelty_free": false,
     "vegan": "No",
     "category": "Sustainable Clothing",
-    "rating": 2.1
+    "rating": 2.1,
+    "greener_alternatives": ["Cork Wallet", "Recycled Material Wallet"],
+    "images": "https://godbolegear.com/cdn/shop/files/SingleCashPocket-ClassicWallet-StuffedwithCardsandCash.jpg?v=1722840632&width=1946"
   },
   {
     "name": "Recycled PET Backpack",
@@ -641,13 +768,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Eco Friendly Bags",
-    "rating": 7.8
+    "rating": 7.8,
+    "greener_alternatives": [],
+    "images": "https://www.recycle.green/cdn/shop/products/IMG-20180203-WA0005_grande.jpg?v=1571609181"
   },
   {
     "name": "Notebook with Plastic Cover",
     "brand": "NotePro",
     "materials": "Paper, polypropylene cover",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Shrink-wrapped plastic",
     "brand_ethics": "No stated policies",
     "manufacturing": "Conventional",
@@ -655,13 +784,15 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 2.7
+    "rating": 2.7,
+    "greener_alternatives": ["Recycled Paper Notebook", "Hemp Notebook"],
+    "images": "https://m.media-amazon.com/images/I/71u79dEIsCL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Solar Power Bank",
     "brand": "SunCharge",
     "materials": "Monocrystalline silicon, recycled ABS",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled cardboard",
     "brand_ethics": "Promotes renewable energy",
     "manufacturing": "Uses recycled plastics",
@@ -669,13 +800,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 8.2
+    "rating": 8.2,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/41QxuA0f3hL._SR290,290_.jpg"
   },
   {
     "name": "Disposable Razor",
     "brand": "SmoothShave",
     "materials": "Plastic, steel",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic blister pack",
     "brand_ethics": "No information",
     "manufacturing": "Conventional",
@@ -683,7 +816,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Personal Care Products",
-    "rating": 1.8
+    "rating": 1.8,
+    "greener_alternatives": ["Reusable Razor", "Compostable Razor"],
+    "images": "https://m.media-amazon.com/images/I/81dohizJNQL.jpg"
   },
   {
     "name": "Stainless Steel Food Container",
@@ -697,13 +832,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.6
+    "rating": 8.6,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71Vmni8aK5L._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Plastic Cutlery Set",
     "brand": "QuickServe",
     "materials": "Polystyrene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -711,7 +848,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 0.4
+    "rating": 0.4,
+    "greener_alternatives": ["Bamboo Cutlery Set", "Compostable Cutlery"],
+    "images": "https://rukminim2.flixcart.com/image/850/1000/xif0q/spoon/u/n/u/spoon-star-work-original-imagr2ghw8js2z8n.jpeg?q=20&crop=false"
   },
   {
     "name": "Compostable Phone Case",
@@ -725,7 +864,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 9.3
+    "rating": 9.3,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/51QaAmutntL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Zero Waste Starter Kit",
@@ -739,13 +880,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9.8
+    "rating": 9.8,
+    "greener_alternatives": [],
+    "images": "https://barenecessities.in/cdn/shop/files/Edited-7977_Square.webp?v=1691474735"
   },
   {
     "name": "Acrylic Paint Set",
     "brand": "ArtEssentials",
     "materials": "Acrylic polymer, pigments",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic tray, cardboard box",
     "brand_ethics": "No disclosure",
     "manufacturing": "Conventional",
@@ -753,7 +896,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 2.3
+    "rating": 2.3,
+    "greener_alternatives": ["Plant-Based Paint Set", "Recycled Paint Set"],
+    "images": "https://m.media-amazon.com/images/I/81jwH2F6VaL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "LED Light Bulb",
@@ -767,13 +912,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 7.7
+    "rating": 7.7,
+    "greener_alternatives": [],
+    "images": "https://www.ikea.com/in/en/images/products/solhetta-led-bulb-e27-1521-lumen-dimmable-globe-opal-white__0989131_pe818397_s5.jpg?f=s"
   },
   {
     "name": "Cotton Socks",
     "brand": "HappyFeet",
     "materials": "Conventional cotton",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No sustainability info",
     "manufacturing": "Conventional",
@@ -781,7 +928,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Sustainable Clothing",
-    "rating": 2.9
+    "rating": 2.9,
+    "greener_alternatives": ["Organic Cotton Socks", "Bamboo Fiber Socks"],
+    "images": "https://m.media-amazon.com/images/I/910Q7ZQNz2L._AC_UY1100_.jpg"
   },
   {
     "name": "Aluminum Reusable Water Bottle",
@@ -795,13 +944,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Reusable Bottles and Cups",
-    "rating": 8.5
+    "rating": 8.5,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71OvvHMJlAL.jpg"
   },
   {
     "name": "Polyester Fast Fashion T-shirt",
     "brand": "QuickTrends",
     "materials": "Polyester",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic bag",
     "brand_ethics": "No public info",
     "manufacturing": "Conventional, high emissions",
@@ -809,7 +960,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Sustainable Clothing",
-    "rating": 1.2
+    "rating": 1.2,
+    "greener_alternatives": ["Organic Cotton T-Shirt", "Hemp T-Shirt"],
+    "images": "https://m.media-amazon.com/images/I/81o2qLDkMDL._AC_UY1100_.jpg"
   },
   {
     "name": "Natural Deodorant Stick",
@@ -823,13 +976,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Personal Care Products",
-    "rating": 9.5
+    "rating": 9.5,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71H9hEgEcVL.jpg"
   },
   {
     "name": "Plastic Ballpoint Pen",
     "brand": "OfficeBasics",
     "materials": "Plastic, metal ink cartridge",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -837,7 +992,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 0.6
+    "rating": 0.6,
+    "greener_alternatives": ["Bamboo Pen", "Recycled Plastic Pen"],
+    "images": "https://www.shaktiplasticinds.com/wp-content/uploads/2023/07/Pen.jpg"
   },
   {
     "name": "Wool Sweater",
@@ -851,7 +1008,9 @@
     "cruelty_free": false,
     "vegan": "No",
     "category": "Sustainable Clothing",
-    "rating": 6.5
+    "rating": 6.5,
+    "greener_alternatives": [],
+    "images": "https://www.shaktiplasticinds.com/wp-content/uploads/2023/07/Pen.jpg"
   },
   {
     "name": "Bamboo Reusable Straw Set",
@@ -865,13 +1024,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9.2
+    "rating": 9.2,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/81FU2g+QiTS.jpg"
   },
   {
     "name": "Wireless Earbuds",
     "brand": "SoundMax",
     "materials": "Plastic, metal, lithium battery",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic and cardboard",
     "brand_ethics": "No info",
     "manufacturing": "Conventional electronics",
@@ -879,7 +1040,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Sustainable Tech Accessories",
-    "rating": 3.5
+    "rating": 3.5,
+    "greener_alternatives": [],
+    "images": "https://img.tatacliq.com/images/i16//437Wx649H/MP000000021644619_437Wx649H_202403221148441.jpeg"
   },
   {
     "name": "Recycled Paper Notebook",
@@ -893,13 +1056,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Stationery",
-    "rating": 8.7
+    "rating": 8.7,
+    "greener_alternatives": [],
+    "images": "https://nspirebynature.com/cdn/shop/files/1665423905401-min_1200x1200.jpg?v=1684699259"
   },
   {
     "name": "Bamboo Fiber Socks",
     "brand": "EcoSox",
     "materials": "Bamboo fiber, spandex",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper band",
     "brand_ethics": "Bamboo sourced from FSC-certified forests",
     "manufacturing": "Low-emission, water-saving",
@@ -907,7 +1072,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Clothing",
-    "rating": 8.3
+    "rating": 8.3,
+    "greener_alternatives": [],
+    "images": "https://heelium.in/cdn/shop/files/ProductFeatures-17-min_1_1200x1200.webp?v=1740980400"
   },
   {
     "name": "Reusable Stainless Steel Straw",
@@ -921,13 +1088,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9.1
+    "rating": 9.1,
+    "greener_alternatives": [],
+    "images": "https://brownliving.in/cdn/shop/products/stainless-steel-straws-re-usable-eco-friendly-suitable-for-kids-adults-ss-2-straw-brown-living-330404.jpg?v=1682967979"
   },
   {
     "name": "Polyester Backpack",
     "brand": "Back2School",
     "materials": "Polyester",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic bag",
     "brand_ethics": "No sustainability policy",
     "manufacturing": "Conventional",
@@ -935,7 +1104,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Eco Friendly Bags",
-    "rating": 2.0
+    "rating": 2.0,
+    "greener_alternatives": [],
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyusbNqDGTMvQYOJS0w7qb6etk_x4_uiHDMw&s"
   },
   {
     "name": "Glass Food Storage Set",
@@ -949,13 +1120,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.9
+    "rating": 8.9,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71RliRADeDL.jpg"
   },
   {
     "name": "Disposable Foam Plate",
     "brand": "PartyServe",
     "materials": "Polystyrene foam",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -963,13 +1136,15 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 0.2
+    "rating": 0.2,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/713IBQRByJL.jpg"
   },
   {
     "name": "Refillable Glass Soap Dispenser",
     "brand": "EcoPump",
     "materials": "Glass, stainless steel pump",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled cardboard",
     "brand_ethics": "Encourages refills, plastic-free packaging",
     "manufacturing": "Low energy, local production",
@@ -977,13 +1152,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.7
+    "rating": 8.7,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/7153lOzyslL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "name": "Synthetic Sponge",
     "brand": "CleanMaster",
     "materials": "Polyurethane",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -991,7 +1168,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 1.0
+    "rating": 1.0,
+    "greener_alternatives": [],
+    "images": "https://5.imimg.com/data5/VL/QL/EB/SELLER-4922559/synthetic-sponge.jpg"
   },
   {
     "name": "Organic Lip Balm",
@@ -1005,7 +1184,9 @@
     "cruelty_free": false,
     "vegan": "No",
     "category": "Personal Care Products",
-    "rating": 7.8
+    "rating": 7.8,
+    "greener_alternatives": [],
+    "images": "https://files.organicharvest.in/site-images/800x800/8906080033469-1.jpg"
   },
   {
     "name": "Compostable Trash Bags",
@@ -1019,13 +1200,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.9
+    "rating": 8.9,
+    "greener_alternatives": [],
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmmZEdnLhmEDDbpjhbstlyaEuL2JWvWBRJTQ&s"
   },
   {
     "name": "Plastic Pencil Case",
     "brand": "SchoolBox",
     "materials": "Polypropylene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic sleeve",
     "brand_ethics": "No public info",
     "manufacturing": "Conventional",
@@ -1033,7 +1216,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 1.5
+    "rating": 1.5,
+    "greener_alternatives": ["Recycled Material Pencil Case", "Hemp Pencil Case"],
+    "images": "https://m.media-amazon.com/images/I/71W4TRUrqdL.jpg"
   },
   {
     "name": "Recycled Aluminum Ballpoint Pen",
@@ -1047,7 +1232,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Stationery",
-    "rating": 8.1
+    "rating": 8.1,
+    "greener_alternatives": [],
+    "images": "https://i.etsystatic.com/19083879/r/il/ae397e/5851413105/il_570xN.5851413105_23o8.jpg"
   },
   {
     "name": "Organic Cotton T-shirt",
@@ -1061,13 +1248,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Clothing",
-    "rating": 8.8
+    "rating": 8.8,
+    "greener_alternatives": [],
+    "images": "https://freecultr.com/cdn/shop/files/MossGreen_RustOrange_DustyPink_17.jpg?v=1720844665&width=960"
   },
   {
     "name": "Plastic Disposable Cup",
     "brand": "PartyPlast",
     "materials": "Polystyrene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No sustainability info",
     "manufacturing": "Conventional",
@@ -1075,7 +1264,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Reusable Bottles and Cups",
-    "rating": 0.5
+    "rating": 0.5,
+    "greener_alternatives": [],
+    "images": "https://5.imimg.com/data5/GS/FO/MY-20803930/smoothie-cups.jpg"
   },
   {
     "name": "Solar-Powered Desk Lamp",
@@ -1089,13 +1280,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 8.4
+    "rating": 8.4,
+    "greener_alternatives": [],
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMc9z2ErtTbF3iYSQ6lhbchrYtkTuTrJSpA&s"
   },
   {
     "name": "Plastic Eraser",
     "brand": "QuickErase",
     "materials": "PVC",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic film",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -1103,7 +1296,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 1.2
+    "rating": 1.2,
+    "greener_alternatives": ["Organic Cotton T-Shirt", "Hemp T-Shirt"],
+    "images": "https://m.media-amazon.com/images/I/61YxN7esrbL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Beeswax Wrap",
@@ -1117,7 +1312,9 @@
     "cruelty_free": false,
     "vegan": "No",
     "category": "Home Essentials",
-    "rating": 7.9
+    "rating": 7.9,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/81-cLbynG7L.jpg"
   },
   {
     "name": "Silicone Food Bag",
@@ -1131,13 +1328,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.2
+    "rating": 8.2,
+    "greener_alternatives": [],
+    "images": "https://rukminim2.flixcart.com/image/850/1000/kruyw7k0/storage-pouch/h/t/s/silicon-bag-06-black-camel-original-imag5jzhgtfqyqtf.jpeg?q=90&crop=false"
   },
   {
     "name": "Plastic Notebook",
     "brand": "NotePro",
     "materials": "Plastic, paper",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Shrink-wrapped",
     "brand_ethics": "No sustainability policies",
     "manufacturing": "Conventional",
@@ -1145,7 +1344,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 1.9
+    "rating": 1.9,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/718vM+75UNL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Biodegradable Glitter",
@@ -1159,7 +1360,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Stationery",
-    "rating": 8.6
+    "rating": 8.6,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/61mlMqj08fL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "name": "Reusable Bamboo Cutlery Set",
@@ -1173,13 +1376,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Zero Waste Kits Starter Packs",
-    "rating": 9.3
+    "rating": 9.3,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/81JPUvZ3AhS._AC_UF894,1000_QL80_.jpg"
   },
   {
     "name": "Plastic Disposable Cutlery",
     "brand": "QuickServe",
     "materials": "Polystyrene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -1187,13 +1392,15 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 0.4
+    "rating": 0.4,
+    "greener_alternatives": ["Bamboo Cutlery Set", "Compostable Cutlery"],
+    "images": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVszj9kLQz8yHgJsRghu7di3GzLSIJ26tsJg&s"
   },
   {
     "name": "Solar-Powered Calculator",
     "brand": "SunCalc",
     "materials": "Recycled plastic, silicon solar cell",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Paper box",
     "brand_ethics": "Encourages solar energy use",
     "manufacturing": "Low-energy",
@@ -1201,13 +1408,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 7.7
+    "rating": 7.7,
+    "greener_alternatives": [],
+    "images": "https://www.solarsquare.in/blog/wp-content/uploads/2022/12/solar-powered-calculator.jpg"
   },
   {
     "name": "Plastic Ruler",
     "brand": "MeasureIt",
     "materials": "Polypropylene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic sleeve",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -1215,7 +1424,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 1.3
+    "rating": 1.3,
+    "greener_alternatives": [],
+    "images": "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/19d4ebaf-21d1-4108-adc7-e7568d98be73/screenshot-2023-05-31-3-58-37-pm.png"
   },
   {
     "name": "Recycled PET Laptop Sleeve",
@@ -1229,7 +1440,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 8.0
+    "rating": 8.0,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71MBytc+JZL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Biodegradable Phone Case",
@@ -1243,7 +1456,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 9.0
+    "rating": 9.0,
+    "greener_alternatives": [],
+    "images": "https://i.etsystatic.com/12218085/r/il/aa82ef/3094072873/il_570xN.3094072873_7pgo.jpg"
   },
   {
     "name": "Plant-Based Laundry Detergent",
@@ -1257,13 +1472,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.9
+    "rating": 8.9,
+    "greener_alternatives": [],
+    "images": "https://images.mamaearth.in/catalog/product/1/_/1_8tchd77b6aamgryq.jpg?format=auto&height=600"
   },
   {
     "name": "Plastic Hair Brush",
     "brand": "StylePro",
     "materials": "Polypropylene, nylon bristles",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic blister pack",
     "brand_ethics": "No sustainability info",
     "manufacturing": "Conventional",
@@ -1271,13 +1488,15 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Personal Care Products",
-    "rating": 1.4
+    "rating": 1.4,
+    "greener_alternatives": ["Bamboo Mechanical Pencil", "Recycled Plastic Pencil"],
+    "images": "https://www.jiomart.com/images/product/original/rvsyfvjpi1/d-top-hair-brushes-for-women-men-men-professional-hair-styling-pack-of-1-product-images-orvsyfvjpi1-p601165139-0-202305041631.jpg?im=Resize=(420,420)"
   },
   {
     "name": "Recycled Glass Vase",
     "brand": "GlassCycle",
     "materials": "100% recycled glass",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled cardboard",
     "brand_ethics": "Supports glass recycling initiatives",
     "manufacturing": "Energy-efficient kiln",
@@ -1285,13 +1504,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.0
+    "rating": 8.0,
+    "greener_alternatives": [],
+    "images": "https://i.etsystatic.com/13224655/r/il/0f3d76/2839776096/il_570xN.2839776096_rbbk.jpg"
   },
   {
     "name": "Plastic Shopping Bag",
     "brand": "CarryAll",
     "materials": "HDPE",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Bulk plastic roll",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -1299,7 +1520,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Eco Friendly Bags",
-    "rating": 0.3
+    "rating": 0.3,
+    "greener_alternatives": ["Compostable Plates", "Reusable Plates"],
+    "images": "https://www.packingsupply.in/blog/wp-content/uploads/2018/03/Plastic-Carry-Bags.jpg"
   },
   {
     "name": "Recycled Paper Envelopes",
@@ -1313,7 +1536,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Stationery",
-    "rating": 8.4
+    "rating": 8.4,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71TgEH-T-sL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Compostable Trash Bin Liners",
@@ -1327,13 +1552,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.6
+    "rating": 8.6,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/61e+gVMl6XL._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "name": "Synthetic Fiber Bath Towel",
     "brand": "SoftTouch",
     "materials": "Polyester, nylon",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No sustainability info",
     "manufacturing": "Conventional",
@@ -1341,13 +1568,15 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 2.1
+    "rating": 2.1,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/81oi1Q57OTL._AC_UF350,350_QL80_.jpg"
   },
   {
     "name": "Solar-Powered Outdoor Lantern",
     "brand": "SunGlow",
     "materials": "ABS plastic, solar cell",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Recycled paper box",
     "brand_ethics": "Promotes clean energy",
     "manufacturing": "Partially solar-powered",
@@ -1355,7 +1584,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Tech Accessories",
-    "rating": 7.4
+    "rating": 7.4,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71msY8vGtWL.jpg"
   },
   {
     "name": "Organic Cotton Baby Onesie",
@@ -1369,13 +1600,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Sustainable Clothing",
-    "rating": 9.0
+    "rating": 9.0,
+    "greener_alternatives": [],
+    "images": "https://www.momshome.in/cdn/shop/files/13_80f56c3e-7d12-4a5b-959e-3b686eeb124e.jpg?v=1725372474"
   },
   {
     "name": "Plastic Disposable Coffee Cup",
     "brand": "CafeQuick",
     "materials": "Polystyrene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic sleeve",
     "brand_ethics": "No sustainability info",
     "manufacturing": "Conventional",
@@ -1383,7 +1616,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Reusable Bottles and Cups",
-    "rating": 0.6
+    "rating": 0.6,
+    "greener_alternatives": ["Bamboo Pen", "Recycled Plastic Pen"],
+    "images": "https://5.imimg.com/data5/SELLER/Default/2023/9/346563945/LE/DR/CS/4304492/disposable-coffee-cup-250x250.jpg"
   },
   {
     "name": "Biodegradable Party Plates",
@@ -1397,7 +1632,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 9.0
+    "rating": 9.0,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/81xCgYdMoHL.jpg"
   },
   {
     "name": "Wool Dryer Balls",
@@ -1411,13 +1648,15 @@
     "cruelty_free": false,
     "vegan": "No",
     "category": "Home Essentials",
-    "rating": 8.1
+    "rating": 8.1,
+    "greener_alternatives": [],
+    "images": "https://mionartisansoap.com/cdn/shop/products/VIC_1790copy.jpg?v=1604460258"
   },
   {
     "name": "Plastic Mechanical Pencil",
     "brand": "WriteNow",
     "materials": "Plastic, metal",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic sleeve",
     "brand_ethics": "No info",
     "manufacturing": "Conventional",
@@ -1425,7 +1664,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Stationery",
-    "rating": 1.4
+    "rating": 1.4,
+    "greener_alternatives": ["Bamboo Mechanical Pencil", "Recycled Plastic Pencil"],
+    "images": "https://m.media-amazon.com/images/I/61MKadWoyKL.jpg"
   },
   {
     "name": "Compostable Cling Wrap",
@@ -1439,13 +1680,15 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Home Essentials",
-    "rating": 8.7
+    "rating": 8.7,
+    "greener_alternatives": [],
+    "images": "https://biogreenbags.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-11-18-at-11.25.56-AM.jpeg"
   },
   {
     "name": "Plastic Disposable Plate",
     "brand": "QuickServe",
     "materials": "Polystyrene",
-    "certifications": ["No Public Information Avaialble"],
+    "certifications": [],
     "packaging": "Plastic wrap",
     "brand_ethics": "No information",
     "manufacturing": "Conventional",
@@ -1453,7 +1696,9 @@
     "cruelty_free": false,
     "vegan": "Unknown",
     "category": "Home Essentials",
-    "rating": 0.3
+    "rating": 0.3,
+    "greener_alternatives": ["Compostable Plates", "Reusable Plates"],
+    "images": "https://m.media-amazon.com/images/I/71IVzoTUqYL.jpg"
   },
   {
     "name": "Recycled Cotton Canvas Bag",
@@ -1467,7 +1712,9 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Eco Friendly Bags",
-    "rating": 8.5
+    "rating": 8.5,
+    "greener_alternatives": [],
+    "images": "https://bagmaverick.com/wp-content/uploads/2022/06/shutterstock_1411993424-1080x675.jpg"
   },
   {
     "name": "Plant Fiber Tooth Floss",
@@ -1481,6 +1728,8 @@
     "cruelty_free": true,
     "vegan": "Yes",
     "category": "Personal Care Products",
-    "rating": 9.2
+    "rating": 9.4,
+    "greener_alternatives": [],
+    "images": "https://m.media-amazon.com/images/I/71kbMyyYqkL.jpg"
   }
 ]
