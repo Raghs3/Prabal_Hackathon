@@ -1,12 +1,12 @@
 const { collection, addDoc, query, where, getDocs, updateDoc } = require('firebase/firestore/lite');
-const db = require('../firebase');
+const db = require('./firebase');
 const fs = require('fs');
 const path = require('path');
 
 async function uploadProducts() {
   try {
     // Read the products.json file
-    const filePath = path.join(__dirname, 'products.json');
+    const filePath = path.join(__dirname, '.\\Eco_Cart\\products.json');
     const fileData = fs.readFileSync(filePath, 'utf-8');
     const products = JSON.parse(fileData);
 
