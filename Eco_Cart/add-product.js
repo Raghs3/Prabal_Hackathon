@@ -275,9 +275,7 @@ function refreshProductDisplay(productsArray) {
               </div>
               <div class="detail-row">
                 <strong>Greener Alternatives:</strong> 
-                <span>${product.greener_alternatives && product.greener_alternatives.length > 0 
-                  ? product.greener_alternatives.join(', ') 
-                  : 'Not available'}</span>
+                <span>${product.greener_alternatives || 'None Available'}</span>
               </div>
               <div class="tags">
                 ${product.cruelty_free ? '<span class="tag tag-cruelty-free">Cruelty Free</span>' : ''}
