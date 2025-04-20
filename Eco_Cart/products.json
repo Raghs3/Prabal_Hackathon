@@ -1731,5 +1731,37 @@
     "rating": 9.4,
     "greener_alternatives": [],
     "images": "https://m.media-amazon.com/images/I/71kbMyyYqkL.jpg"
+  },
+  {
+    "name": "Toyota Supra",
+    "brand": "Toyota",
+    "materials": "Steel, aluminum, various plastics, rubber, glass, and other components. Specific material composition varies by model year and trim level.",
+    "certifications": [],
+    "packaging": "The car is not sold in packaging.  Toyota has broader corporate sustainability goals related to reduced packaging and recycled materials in its manufacturing processes.",
+    "brand_ethics": "Toyota has publicly stated commitments to environmental sustainability, including carbon neutrality goals.  Their practices vary in detail across different regions and aspects of their business.",
+    "manufacturing": "Toyota employs various eco-friendly manufacturing practices across its global operations, including waste reduction initiatives and the use of recycled materials where feasible. However, specific details for Supra manufacturing are unavailable. ",
+    "end_of_life": "End-of-life management is determined by local regulations. Recycling options may vary by location and model year.  Parts can be recycled or repurposed. Toyota is involved in recycling programs, but specific Supra details are not available.",
+    "cruelty_free": true,
+    "vegan": "Unknown",
+    "category": "Sustainable Tech Accessories",
+    "rating": 4.5,
+    "greener_alternatives": ["Electric vehicles", "Hybrid vehicles", "Used cars", "Smaller, more fuel-efficient vehicles", "Toyota Prius", "Toyota Corolla Hybrid"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/2023_Toyota_Supra_%282%29.jpg"
+  },
+  {
+    "name": "Lamborghini Countach",
+    "brand": "Lamborghini",
+    "materials": "Steel, aluminum, various plastics, leather (interior)",
+    "certifications": [],
+    "packaging": "Information not available for a classic car.",
+    "brand_ethics": "Lamborghini is increasingly focusing on sustainability initiatives, including reducing CO2 emissions and utilizing recycled materials in newer models.  However, the Countach's production predates these modern efforts.",
+    "manufacturing": "Traditional automotive manufacturing processes, details specific to Countach production are largely undocumented.",
+    "end_of_life": "Recycling of materials is possible, but generally done through specialized dismantling and scrap metal recycling facilities.  Disposal should follow local regulations for vehicle scrappage.",
+    "cruelty_free": false,
+    "vegan": "No",
+    "category": "Classic Cars",
+    "rating": 2.0,
+    "greener_alternatives": ["Electric vehicles", "Hybrid vehicles", "Smaller, more fuel-efficient cars", "Modern Lamborghinis with improved fuel efficiency and sustainability features (e.g., Revuelto)"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lamborghini_Countach_-_Flickr_-_exfordy_%282%29.jpg/1200px-Lamborghini_Countach_-_Flickr_-_exfordy_%282%29.jpg"
   }
 ]
